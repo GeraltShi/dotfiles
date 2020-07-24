@@ -1,0 +1,21 @@
+au VimEnter * NERDTree
+colorscheme slate
+set t_Co=256
+set background=dark
+set nu!
+syntax on
+filetype on
+set tabstop=2
+
+set cursorline
+set cursorcolumn
+
+hi CursorLine guibg=SaddleBrown
+hi CursorLine guibg=SaddleBrown
+hi CursorColumn guibg=SaddleBrown
+hi CursorColumn guibg=SaddleBrown
+"
+set guifont=Monospace\ Bold\ 10
+"let g:molokai_original = 1
+"let g:rehash256 = 1
+
